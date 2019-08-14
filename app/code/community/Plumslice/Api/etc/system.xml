@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <plumslice translate="label">
+            <label><![CDATA[<div><img src="https://plumslice.com/images/mrd/logo-PlumSlice-Cloud-Based-Product-Management-Suite-for-eCommerce.png" alt="PlumSlice Labs" title="PlumSlice Labs" width="108" height="23" style="display:block;" /></div>]]></label>
+            <sort_order>1000</sort_order>
+        </plumslice>
+    </tabs>
+    <sections>
+        <plumslice_api translate="label" module="plumslice_api">
+            <label>Plumslice API</label>
+            <tab>plumslice</tab>
+            <sort_order>101</sort_order>
+			<show_in_store>1</show_in_store>
+            <show_in_website>1</show_in_website>
+            <show_in_default>1</show_in_default>
+
+            
+            <groups>
+                <hint>
+                    <frontend_model>plumslice_api/adminhtml_system_config_fieldset_hint</frontend_model>
+                    <sort_order>0</sort_order>
+                    <show_in_website>1</show_in_website>
+					<show_in_default>1</show_in_default>
+                    <show_in_store>1</show_in_store>
+                </hint>
+            </groups>
+        </plumslice_api>
+    </sections>
+</config>

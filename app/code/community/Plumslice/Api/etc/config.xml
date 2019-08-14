@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Plumslice_Api>
+            <version>1.0.0</version>
+        </Plumslice_Api>
+    </modules>
+    <global>
+        <helpers>
+            <plumslice_api>
+                <class>Plumslice_Api_Helper</class>
+            </plumslice_api>
+        </helpers>
+        <models>
+            <catalog>
+                <rewrite>
+                    <product_api>Plumslice_Api_Model_Catalog_Product_Api</product_api>
+                    <product_api_v2>Plumslice_Api_Model_Catalog_Product_Api_V2</product_api_v2>
+                </rewrite>
+            </catalog>
+        </models>
+        <blocks>
+            <plumslice_api>
+                <class>Plumslice_Api_Block</class>
+            </plumslice_api>
+        </blocks>
+    </global>
+</config>
