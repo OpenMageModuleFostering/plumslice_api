@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 PlumSlice PIM API Magento extension provides seamless and automated Catalog( Products, Digital Assets, Hierarchies, and  Attributes) management using the Plumslice PIM application within the PlumSlice Collaboration Suite. The PlumSlice PIM out-of-box auto-synching process enables customers to manage enhanced and comprehensive product data in PIM which then automatically informs your Magento e-commerce site with the information needed to optimize your customer experience.
